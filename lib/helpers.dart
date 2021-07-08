@@ -10,6 +10,7 @@ export 'package:ffplayer/app/pages/localfiles/local_page.dart';
 // controllers
 export 'package:ffplayer/app/pages/home/home_controller.dart';
 export 'package:ffplayer/app/pages/downloaded/download_controller.dart';
+export 'package:ffplayer/app/pages/home_player/player_controller.dart';
 
 // bindings
 export 'app/pages/home/home_bindings.dart';

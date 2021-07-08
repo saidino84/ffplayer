@@ -1,3 +1,4 @@
+import 'package:ffplayer/app/pages/home_player/player_page.dart';
 import 'package:ffplayer/helpers.dart';
 
 class HomeController extends GetxController {
@@ -7,6 +8,7 @@ class HomeController extends GetxController {
   // lista de tabs com seus correspondetes views
   final tab_pages = [
     // HomePage(),
+    PlayerPage(),
     UploadPage(),
     DownloadPage(),
     LocalPage(),
